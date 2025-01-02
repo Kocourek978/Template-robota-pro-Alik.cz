@@ -56,7 +56,7 @@ Zde jsou jejich rozdíly:
   
      Použijte příkazový řádek a přesuňte se přesuňte do složky programu:
      ```bash
-     cd cesta\do\složky
+     cd cesta\do\složky\s\programem
      ```
   
      poté pomocí příkazu **pip** a souboru **requirements.txt** jednoduše nainstalujete knihovny:
