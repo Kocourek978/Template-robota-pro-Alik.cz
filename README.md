@@ -20,16 +20,15 @@ Díky tomu jsem se rozhodl, že vytvořím tento kód jako takový "startovací 
 
 Kód je licencovaný jako public domain = každý si s ním může dělat to, co chce.
 
-## Verze kódu
-Zatím jsou tři verze programu.
+## Robot občas neposílá zprávy
 
-Zde jsou jejich rozdíly:
+To je kvůli tomu, že v klubovně je **filtr na spam**.
 
-| Název        | Funkce           |
-| ------------- |:-------------:|
-| robot.py      | Standartní program, vypisuje do konzole info. |
-| robot - zadne printy.py      | Stejný jako robot.py, ale do konzole nic nepíše      |
-| robot - pouze konzole.py | Stejný jako robot.py, ale neotevře okno prohlížeče - prohlížeč běží skrytě v headless módu.      |
+Když zkusíte poslat stejnou zprávu několikrát po sobě, tak se nepošle.
+
+Jelikož odpovědi jsou většinou předdefinované, tak mohou být blokováné právě díky filtru.
+
+Toto **není** chyba.
 
 # Instalace
 1. Stáhněte a nainstalujte [Google chrome](https://www.google.com/chrome "Google download")
