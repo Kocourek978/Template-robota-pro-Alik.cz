@@ -6,6 +6,7 @@ Kapitoly:
 1. [Stručné informace](#stručné-informace )
 2. [Instalace](#instalace)
 3. [Příkazy](#příkazy)
+4. [Další zdroje](#další-zdroje)
 ***
 
 # Stručné informace
@@ -89,6 +90,14 @@ Zde jsou jejich rozdíly:
      ```bash
      python3 robot.py
      ```
+## Co když kód nefunguje?
+Ujistěte se, že jste všechno udělali správně.
+
+Poté [nahlaste chybu tady na Githubu](https://github.com/Kocourek978/Template-robota-pro-Alik.cz/issues) a/nebo mi [napište na Alíkovskou poštu 📩](www.alik.cz/@/Kocourek978#formular)
+
+(Lepší je ta pošta :D)
+
+ ---
 
 # Příkazy
 Všechny verze programu mají 4 různé příkazy.
@@ -129,3 +138,20 @@ Uživatel napíše
 
 Robot odpoví
 ```Odcházím...``` a odejde od stolu.
+
+# Další zdroje
+Nechápete kód, chcete se dozvědět víc nebo si udělat vlastní kód?
+
+[📩 Napište mi do Alíkovské pošty!](www.alik.cz/@/Kocourek978#formular)
+
+
+
+A taky zde jsou nějaké další zdroje, které by mohly pomoct:
+
+❓ - [Dotaz "Jak si můžu vytvořit svého robota?"](https://www.alik.cz/p/267231 "Odkaz na dotaz")
+
+❓ - [Dotaz "Jakým způsobem jde Alík propojit s roboty?"](https://www.alik.cz/p/262726 "Odkaz na dotaz")
+
+📄 - [Nástěnka "Jak by měla vypadat pravidla pro roboty?"](https://www.alik.cz/n/jak-by-mela-vypadat-pravidla-pro-roboty "Odkaz na nástěnku")
+
+📄 - [Nástěnka "Roboti na Alíkovi"](https://www.alik.cz/n/roboti-na-alikovi "Odkaz na nástěnku")
