@@ -1,5 +1,7 @@
 # Template robota pro web Alík.cz
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/selenium?logo=python)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/selenium?logo=python)         ![GitHub last commit](https://img.shields.io/github/last-commit/Kocourek978/Template-robota-pro-Alik.cz?label=Posledn%C3%AD%20%C3%BAprava)      ![GitHub repo size](https://img.shields.io/github/repo-size/Kocourek978/template-robota-pro-alik.cz?label=Velikost)      ![GitHub open issues](https://img.shields.io/github/issues/Kocourek978/Template-robota-pro-Alik.cz?label=Chyby%20a%20probl%C3%A9my)
+
+
 
 ---
 Kapitoly:
@@ -84,7 +86,18 @@ Zde jsou jejich rozdíly:
     HESLO_ROBOTA="superheslo"
     STUL="https://www.alik.cz/k/roboti-koutek"
     ```
-6. Spusťte program
+6. Zapněte zobrazování časů
+
+   Přihlašte se na Alíkovi za robota.
+
+   (Jako kdybyste se přihlašovali jako normální uživatel)
+
+
+   Poté si jako robot přisedněte ke stolu.
+
+   Nakonec v "Nastavení stolů" musí být zapnutá možnost "Zobrazovat čas".
+
+8. Spusťte program
 
    Instalace je hotová! Ted už jen stačí spustit program pomocí příkazu:
      ```bash
