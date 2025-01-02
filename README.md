@@ -94,7 +94,7 @@ Zde jsou jejich rozdíly:
 Všechny verze programu mají 4 různé příkazy.
 Zde si je stručně řekneme.
 
-#### Ahoj
+### Ahoj
 Napíše "Ahojky! :D"
 
 Uživatel napíše
