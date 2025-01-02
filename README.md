@@ -44,7 +44,7 @@ Zde jsou jejich rozdíly:
    
 3. Stáhněte [samotný program robota](https://github.com/Kocourek978/Template-robota-pro-Alik.cz/archive/refs/heads/main.zip "Program")
 
-    Poté extrahovat stažený .zip soubor
+    Poté extrahujte stažený .zip soubor
 
 4. Nainstalujte knihovny
 
@@ -86,7 +86,7 @@ Zde jsou jejich rozdíly:
     ```
 6. Spusťte program
 
-   Instalace je hotová! Ted už jen stačí spustit program pomocí příkazu
+   Instalace je hotová! Ted už jen stačí spustit program pomocí příkazu:
      ```bash
      python3 robot.py
      ```
