@@ -166,7 +166,7 @@ def zkontrolovat_zpravu(zprava):
         vypsat("Příkaz odejít")
         odpoved = "Odcházím..."
         odeslat_odpoved(odpoved) # Funkce odešle zprávu do chatu
-        Odejit() # Robot odejde od stolu a program se vypne
+        odejit() # Robot odejde od stolu a program se vypne
     elif "datum" in zprava.lower(): # Pokud je "datum" kdekoli ve zprávě (NEBERE v potaz velká a malá písmena - není case-sensitive.)
         vypsat("Příkaz datum")
         odpoved = datetime.date.today() # Vrátí dnešní datum JAKO typ DATETIME
@@ -214,7 +214,7 @@ def odeslat_odpoved(odpoved):
     tlacitko_odeslat = prohlizec.find_element(By.CSS_SELECTOR, '#send-text') # Najde tlačítko na odeslání
     tlacitko_odeslat.click() # Odešle zprávu
 
-def Odejit():
+def odejit():
     """
     Odejde od stolu v klubovně a vypne program
     """
