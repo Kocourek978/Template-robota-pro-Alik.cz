@@ -194,18 +194,19 @@ def odeslat_odpoved(odpoved):
     vypsat("Odesílám zprávu...")
 
     pole_zpravy = prohlizec.find_element(By.CSS_SELECTOR, '#say') # Najde pole, kam se zadává zpráva
-    pole_zpravy.send_keys(odpoved) # Napíše odpověď
+    prohlizec.execute_script("arguments[0].value = arguments[1];", pole_zpravy, odpoved) # Napíše odpověď
     
     """
     Případně lze zaměnit 
-    pole_zpravy.send_keys(odpoved)
-
-    za
     prohlizec.execute_script("arguments[0].value = arguments[1];", pole_zpravy, odpoved)
 
-    Funguje stejně, jen druhá možnost je rychlejší a podporuje znaky jako emoji, které send_keys() nemusí umět.
+    za
+    prohlizec.send_keys(odpoved)
 
-    send_keys(odpoved) funguje způsobem jako klávesnice - umí text a píše ho jako na klávesnici, ale neumí hodně emoji.
+    Funguje v podstatě stejně.
+    Druhá možnost ale nemusí umět emoji a taky trvá déle.
+
+    send_keys(odpoved) funguje způsobem jako klávesnice - umí text a píše ho jako na klávesnici, proto neumí hodně emoji.
 
     execute_script("arguments[0].value = arguments[1];", pole_zpravy, odpoved) funguje způsobem vložení - vloží text (s emoji a čímkoliv jiným) do pole_zpravy.
     Také je rychlejší - pouze to vloží, nepíše.
